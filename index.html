@@ -8,26 +8,130 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>Using CSS to style an HTML Form</h3>
+</div class="container">
+  <header id="topo">
+     <div class="warp-nav">
+        <div class="base nav-container">
+           <div class="logo">webdeverlopers</div>
+           <nav>
+            <ul>
+              <li class="line"><a href="#portifolio">portifolio</a></li>
+              <li class="line"><a href="#dobre">sobre</a></li>
+              <li class="line"><a href="#contato">contato</a></li>
+            </ul>
+            <div class="hambuguer">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </div>
+           </nav>
 
-<div>
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+     </div>
+     <section class="apresentação">
+         <div class="foto-pessoal"></div>
+         <h1 class="">web deverlopers</h1>
+         <h3>web | móvel</h3>
+     </section>
+  </header>
+  <section class="base wrap-selection" id="sobre">
+    <h2>
+      sobre <a href="#topo"><i class="fa-solid fa-arrow-up"></i></a>
+    </h2>
+    <div class="sobre-container">
+       <h3>Lorem, ipsum dolor sit amet consectetur.</h3>
+       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+        totam aliquam corrupti non dolor libero pariatur voluptatum enim
+        impedit incidunt nemo alias sequi, quo ipsum iure quos ducimus.
+        Molestias, tempore. Nisi provident deleniti asperiores, officia ab,
+        facere veritatis autem aliquam assumenda possimus voluptatum iste
+        dignissimos placeat corporis? Voluptate dignissimos hic fugit qui
+        atque perspiciatis. Nisi eum ab rerum nihil praesentium! Hic ex
+        quaerat accusantium repellat, quidem laudantium aliquam sed ipsa
+        distinctio a maiores ut quasi fuga similique ab error ipsam minus
+        aut nesciunt necessitatibus suscipit, tenetur, possimus nobis.
+        Fugiat, similique? Necessitatibus nulla quo voluptas, quaerat,
+        doloremque aspernatur distinctio aperiam maiores ad fuga earum
+        beatae exercitationem praesentium vitae repudiandae voluptate culpa
+        debitis laborum sequi nam natus placeat! Minus praesentium dolorum
+        laboriosam!</p>
+    </div>
+  </section>
+  <section class="base wrap-selection" id="contato">
+      <h2>
+        contato <a href="#topo"><i class="fa-solid fa-arrow-up"></i></a>
+      </h2>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <form action="">
+        <fieldset>
+          <label for="">nome</label>
+          <input type="text" class="dados" required />
+          <label for="text">telefone</label>
+          <input type="text" class="dados" required />
+          <label for="text">cep</label>
+          <input
+            type="text"
+            class="dados"
+            placeholder="ex:00.000.000"
+            required
+            />
+            <label for="">Estado</label>
+            <input type="text" class="dados" required />
+            <label for="">Cidade</label>
+              <input type="text" class="dados" required />
+              <label for="">Endereço</label>
+              <input type="text" class="dados" required />
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
+              <label class="dados" for="estados">UF</label>
+              <section id="estado" name="estado" class="campo escrita">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+              
+              </section>
+        </fieldset>
+        <textarea name="" cols="30" rows="10" class="text" placeholder="Diga como podemos lhe ajudar"></textarea>
+        <div class="btn-container">
+          
+            <button type="submit" id="submit">Enviar</button>
+         
+            <button type="reset" id="reset">Limpa</button>
+        </div>
+      </form>
+      </section>
+    </div>
+
+    <footer>
+      copyright &copy; 2022 - Alessandro Muratore, Paulo Fernandes e Rogerio Marques
+    </footer>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/menu.js"></script>
+
+
   
-    <input type="submit" value="Submit">
-  </form>
-</div>
     
 </body>
 </html>
